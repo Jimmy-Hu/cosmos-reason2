@@ -10,3 +10,5 @@ Usage:
     python scripts/inference_segmented.py --video_path /path/to/video.mp4 --output_file captions.txt
     python scripts/inference_segmented.py --model_path "H:/huggingface/Cosmos-Reason2-2B"
 """
+
+import argparse
