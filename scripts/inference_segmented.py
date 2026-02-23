@@ -12,3 +12,4 @@ Usage:
 """
 
 import argparse
+import gc
