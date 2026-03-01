@@ -18,3 +18,4 @@ import sys
 from typing import List
 
 import av
+import torch
