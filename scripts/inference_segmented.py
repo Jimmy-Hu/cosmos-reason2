@@ -22,3 +22,4 @@ import torch
 from PIL import Image
 from transformers import Qwen3VLForConditionalGeneration, Qwen3VLProcessor
 
+# Constants
