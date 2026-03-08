@@ -25,3 +25,4 @@ from transformers import Qwen3VLForConditionalGeneration, Qwen3VLProcessor
 # Constants
 ROOT = os.path.dirname(os.path.abspath(__file__))
 # Sample rate (frames per second) for the model
+TARGET_FPS = 4
