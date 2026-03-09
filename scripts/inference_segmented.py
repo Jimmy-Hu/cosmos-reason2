@@ -26,3 +26,4 @@ from transformers import Qwen3VLForConditionalGeneration, Qwen3VLProcessor
 ROOT = os.path.dirname(os.path.abspath(__file__))
 # Sample rate (frames per second) for the model
 TARGET_FPS = 4
+# Duration of each segment in seconds (1 minute)
