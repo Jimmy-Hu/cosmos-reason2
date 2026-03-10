@@ -20,6 +20,7 @@ from typing import List
 import av
 import torch
 from PIL import Image
+from tqdm import tqdm
 from transformers import Qwen3VLForConditionalGeneration, Qwen3VLProcessor
 
 # Constants
