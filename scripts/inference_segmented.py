@@ -30,3 +30,5 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 TARGET_FPS = 4
 # Duration of each segment in seconds (1 minute)
 SEGMENT_DURATION_SEC = 60
+
+class ProgressStreamer(BaseStreamer):
