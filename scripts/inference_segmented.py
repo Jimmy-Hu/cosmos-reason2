@@ -22,6 +22,7 @@ import torch
 from PIL import Image
 from tqdm import tqdm
 from transformers import Qwen3VLForConditionalGeneration, Qwen3VLProcessor
+from transformers.generation.streamers import BaseStreamer
 
 # Constants
 ROOT = os.path.dirname(os.path.abspath(__file__))
