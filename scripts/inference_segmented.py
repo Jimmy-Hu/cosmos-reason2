@@ -32,3 +32,6 @@ TARGET_FPS = 4
 SEGMENT_DURATION_SEC = 60
 
 class ProgressStreamer(BaseStreamer):
+    """
+    Custom Streamer to display token generation progress and ETA using tqdm.
+    """
