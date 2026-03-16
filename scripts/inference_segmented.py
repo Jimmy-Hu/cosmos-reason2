@@ -36,3 +36,4 @@ class ProgressStreamer(BaseStreamer):
     Custom Streamer to display token generation progress and ETA using tqdm.
     """
     def __init__(self, max_new_tokens: int):
+        # leave=True keeps the progress bar on screen after completion
