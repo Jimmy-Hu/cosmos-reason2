@@ -37,3 +37,4 @@ class ProgressStreamer(BaseStreamer):
     """
     def __init__(self, max_new_tokens: int):
         # leave=True keeps the progress bar on screen after completion
+        self.pbar = tqdm(total=max_new_tokens, desc="    [Debug] Generation Progress", unit="token", leave=True)
