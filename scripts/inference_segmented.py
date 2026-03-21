@@ -41,3 +41,4 @@ class ProgressStreamer(BaseStreamer):
         self.is_prompt = True
 
     def put(self, value):
+        # The first call usually contains the input prompt (passed all at once)
