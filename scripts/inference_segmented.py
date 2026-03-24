@@ -44,3 +44,4 @@ class ProgressStreamer(BaseStreamer):
         # The first call usually contains the input prompt (passed all at once)
         if self.is_prompt:
             self.is_prompt = False
+        else:
