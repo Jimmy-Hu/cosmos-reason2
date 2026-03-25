@@ -45,3 +45,4 @@ class ProgressStreamer(BaseStreamer):
         if self.is_prompt:
             self.is_prompt = False
         else:
+            # Subsequent calls represent newly generated tokens
