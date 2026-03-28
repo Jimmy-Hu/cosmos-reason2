@@ -47,3 +47,4 @@ class ProgressStreamer(BaseStreamer):
         else:
             # Subsequent calls represent newly generated tokens
             self.pbar.update(1)
+
