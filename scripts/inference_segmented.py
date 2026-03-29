@@ -49,3 +49,4 @@ class ProgressStreamer(BaseStreamer):
             self.pbar.update(1)
 
     def end(self):
+        self.pbar.close()
