@@ -48,3 +48,4 @@ class ProgressStreamer(BaseStreamer):
             # Subsequent calls represent newly generated tokens
             self.pbar.update(1)
 
+    def end(self):
