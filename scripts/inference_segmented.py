@@ -50,3 +50,4 @@ class ProgressStreamer(BaseStreamer):
 
     def end(self):
         self.pbar.close()
+
