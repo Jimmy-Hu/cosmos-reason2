@@ -52,3 +52,4 @@ class ProgressStreamer(BaseStreamer):
         self.pbar.close()
 
 def get_video_duration(video_path: str) -> float:
+    """
