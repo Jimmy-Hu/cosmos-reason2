@@ -54,3 +54,4 @@ class ProgressStreamer(BaseStreamer):
 def get_video_duration(video_path: str) -> float:
     """
     Get the total duration of the video in seconds.
+
