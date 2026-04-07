@@ -57,3 +57,4 @@ def get_video_duration(video_path: str) -> float:
 
     Args:
         video_path (str): Path to the video file.
+
