@@ -62,3 +62,4 @@ def get_video_duration(video_path: str) -> float:
         float: Duration in seconds.
     """
     try:
+        with av.open(video_path) as container:
