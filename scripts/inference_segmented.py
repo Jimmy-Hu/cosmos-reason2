@@ -61,3 +61,4 @@ def get_video_duration(video_path: str) -> float:
     Returns:
         float: Duration in seconds.
     """
+    try:
