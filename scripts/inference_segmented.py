@@ -65,3 +65,4 @@ def get_video_duration(video_path: str) -> float:
         with av.open(video_path) as container:
             video_stream = container.streams.video[0]
             # Calculate duration based on stream metadata
+            if video_stream.duration:
