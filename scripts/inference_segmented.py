@@ -69,3 +69,4 @@ def get_video_duration(video_path: str) -> float:
                 return float(video_stream.duration * video_stream.time_base)
             else:
                 print("Warning: Could not determine video duration from metadata.")
+                return 0.0
