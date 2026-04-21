@@ -71,3 +71,4 @@ def get_video_duration(video_path: str) -> float:
                 print("Warning: Could not determine video duration from metadata.")
                 return 0.0
     except Exception as e:
+        print(f"Error checking video duration: {e}")
