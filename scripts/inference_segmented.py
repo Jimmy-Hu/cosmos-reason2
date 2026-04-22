@@ -73,3 +73,4 @@ def get_video_duration(video_path: str) -> float:
     except Exception as e:
         print(f"Error checking video duration: {e}")
         return 0.0
+
