@@ -74,3 +74,4 @@ def get_video_duration(video_path: str) -> float:
         print(f"Error checking video duration: {e}")
         return 0.0
 
+def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int) -> List[Image.Image]:
