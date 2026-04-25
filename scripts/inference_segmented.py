@@ -76,3 +76,4 @@ def get_video_duration(video_path: str) -> float:
 
 def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int) -> List[Image.Image]:
     """
+    Extract frames from a specific time segment of the video.
