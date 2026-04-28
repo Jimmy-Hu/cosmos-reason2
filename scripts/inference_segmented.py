@@ -78,3 +78,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
     """
     Extract frames from a specific time segment of the video.
 
+    Args:
