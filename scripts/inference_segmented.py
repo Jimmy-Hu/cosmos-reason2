@@ -80,3 +80,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
 
     Args:
         video_path (str): Path to the video file.
+        start_sec (float): Start time in seconds.
