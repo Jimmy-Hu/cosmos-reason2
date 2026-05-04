@@ -85,3 +85,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
         fps (int): Frames per second to sample.
 
     Returns:
+        List[Image.Image]: List of PIL images for this segment.
