@@ -88,3 +88,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
         List[Image.Image]: List of PIL images for this segment.
     """
     frames = []
+    try:
