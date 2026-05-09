@@ -89,3 +89,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
     """
     frames = []
     try:
+        print("    [Debug] frame_generator: Opening video container...")
