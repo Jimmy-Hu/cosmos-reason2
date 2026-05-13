@@ -94,3 +94,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
             stream = container.streams.video[0]
             
             # Disabled AUTO thread_type. Multi-threading in FFmpeg can cause deadlocks 
+            # if the video file has corrupted frames or unusual encoding at specific timestamps.
