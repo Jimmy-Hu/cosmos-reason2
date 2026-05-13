@@ -93,3 +93,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
         with av.open(video_path) as container:
             stream = container.streams.video[0]
             
+            # Disabled AUTO thread_type. Multi-threading in FFmpeg can cause deadlocks 
