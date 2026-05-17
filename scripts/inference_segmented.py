@@ -97,3 +97,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
             # if the video file has corrupted frames or unusual encoding at specific timestamps.
             # stream.thread_type = 'AUTO' 
             
+            # Calculate the time base interval for seeking
