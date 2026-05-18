@@ -99,3 +99,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
             
             # Calculate the time base interval for seeking
             seek_target = int(start_sec / stream.time_base)
+            
