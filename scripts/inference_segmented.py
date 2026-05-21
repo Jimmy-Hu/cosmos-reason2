@@ -102,3 +102,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
             
             print(f"    [Debug] frame_generator: Seeking to target timestamp: {seek_target}...")
             # Seek to the start point (closest keyframe)
+            container.seek(seek_target, stream=stream)
