@@ -105,3 +105,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
             container.seek(seek_target, stream=stream)
             print("    [Debug] frame_generator: Seek completed. Starting to decode frames...")
             
+            last_captured_time = -1.0
