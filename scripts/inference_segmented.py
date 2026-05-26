@@ -106,3 +106,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
             print("    [Debug] frame_generator: Seek completed. Starting to decode frames...")
             
             last_captured_time = -1.0
+            min_interval = 1.0 / fps
