@@ -108,3 +108,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
             last_captured_time = -1.0
             min_interval = 1.0 / fps
             frame_count = 0
+
