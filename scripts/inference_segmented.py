@@ -109,3 +109,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
             min_interval = 1.0 / fps
             frame_count = 0
 
+            for frame in container.decode(stream):
