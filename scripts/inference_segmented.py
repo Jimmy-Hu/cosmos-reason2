@@ -111,3 +111,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
 
             for frame in container.decode(stream):
                 frame_count += 1
+                current_time = float(frame.time)
