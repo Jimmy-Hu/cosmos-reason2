@@ -113,3 +113,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
                 frame_count += 1
                 current_time = float(frame.time)
 
+                if frame_count % 300 == 0:
