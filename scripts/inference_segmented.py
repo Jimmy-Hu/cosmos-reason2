@@ -118,3 +118,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
 
                 # Stop if we passed the end of the segment
                 if current_time > end_sec:
+                    print(f"    [Debug] frame_generator: Reached segment end ({end_sec}s). Stopping decode.")
