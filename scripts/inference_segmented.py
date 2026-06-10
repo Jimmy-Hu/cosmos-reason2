@@ -121,3 +121,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
                     print(f"    [Debug] frame_generator: Reached segment end ({end_sec}s). Stopping decode.")
                     break
                 
+                # Skip frames before the actual start time (due to keyframe seeking)
