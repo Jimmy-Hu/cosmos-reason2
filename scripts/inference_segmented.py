@@ -123,3 +123,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
                 
                 # Skip frames before the actual start time (due to keyframe seeking)
                 if current_time < start_sec:
+                    continue
