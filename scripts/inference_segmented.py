@@ -125,3 +125,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
                 if current_time < start_sec:
                     continue
 
+                # Capture frame if enough time has passed since last capture
