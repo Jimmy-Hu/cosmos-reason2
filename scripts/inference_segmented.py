@@ -126,3 +126,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
                     continue
 
                 # Capture frame if enough time has passed since last capture
+                if last_captured_time < 0 or (current_time - last_captured_time) >= min_interval:
