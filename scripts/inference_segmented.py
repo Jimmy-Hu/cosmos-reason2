@@ -130,3 +130,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
                     pil_image = frame.to_image()
                     frames.append(pil_image)
                     last_captured_time = current_time
+                    
