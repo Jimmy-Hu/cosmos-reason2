@@ -131,3 +131,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
                     frames.append(pil_image)
                     last_captured_time = current_time
                     
+            print(f"    [Debug] frame_generator: Successfully finished decoding sequence.")
