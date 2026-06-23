@@ -135,3 +135,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
     except Exception as e:
         print(f"    [Debug] frame_generator Error: {e}")
         
+    return frames
