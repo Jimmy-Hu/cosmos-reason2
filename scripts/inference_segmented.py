@@ -137,3 +137,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
         
     return frames
 
+def main():
