@@ -139,3 +139,4 @@ def frame_generator(video_path: str, start_sec: float, end_sec: float, fps: int)
 
 def main():
     """
+    Main function to run segmented inference.
