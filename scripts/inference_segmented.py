@@ -141,3 +141,4 @@ def main():
     """
     Main function to run segmented inference.
     """
+    # 1. Parse Arguments
