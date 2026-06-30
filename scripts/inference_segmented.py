@@ -142,3 +142,4 @@ def main():
     Main function to run segmented inference.
     """
     # 1. Parse Arguments
+    parser = argparse.ArgumentParser(description="Run segmented inference on a video.")
