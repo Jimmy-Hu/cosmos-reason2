@@ -143,3 +143,4 @@ def main():
     """
     # 1. Parse Arguments
     parser = argparse.ArgumentParser(description="Run segmented inference on a video.")
+    parser.add_argument(
