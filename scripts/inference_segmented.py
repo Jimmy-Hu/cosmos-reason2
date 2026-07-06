@@ -146,5 +146,6 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+
 if __name__ == "__main__":
     main()
