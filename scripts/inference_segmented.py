@@ -145,5 +145,6 @@ def main():
     parser = argparse.ArgumentParser(description="Run segmented inference on a video.")
     parser.add_argument(
         "--video_path", 
+        type=str, 
 if __name__ == "__main__":
     main()
