@@ -146,6 +146,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            chunk_index += 1
 
     print("\nProcessing complete. Results saved.")
     sys.exit(0)
