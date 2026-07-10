@@ -146,6 +146,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+
     print("\nProcessing complete. Results saved.")
     sys.exit(0)
 
