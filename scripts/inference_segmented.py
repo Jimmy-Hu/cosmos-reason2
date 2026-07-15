@@ -146,6 +146,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                print("\nReached the end of the video stream.")
                 break
 
             current_time = end_time
