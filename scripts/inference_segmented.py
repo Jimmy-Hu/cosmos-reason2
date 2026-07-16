@@ -146,6 +146,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            # F. End Check
             if is_last_chunk:
                 print("\nReached the end of the video stream.")
                 break
