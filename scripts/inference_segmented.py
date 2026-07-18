@@ -146,6 +146,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            torch.cuda.empty_cache()
 
             # F. End Check
             if is_last_chunk:
