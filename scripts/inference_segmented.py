@@ -146,6 +146,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            gc.collect()
             torch.cuda.empty_cache()
 
             # F. End Check
