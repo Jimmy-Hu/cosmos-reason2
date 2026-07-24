@@ -148,6 +148,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                del streamer
             
             gc.collect()
             torch.cuda.empty_cache()
