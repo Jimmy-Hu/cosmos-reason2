@@ -148,6 +148,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            if 'streamer' in locals():
                 del streamer
             
             gc.collect()
