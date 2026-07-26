@@ -148,6 +148,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            del segment_frames
             del conversation
             if 'streamer' in locals():
                 del streamer
