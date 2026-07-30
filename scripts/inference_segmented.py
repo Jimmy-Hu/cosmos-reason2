@@ -3,6 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 # /// script
+# requires-python = ">=3.10"
 
 """
 Segmented inference example for Cosmos-Reason2 to handle long videos.
