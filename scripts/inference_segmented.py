@@ -5,6 +5,7 @@
 # /// script
 # requires-python = ">=3.10"
 # dependencies = [
+#   "accelerate==1.12.0",
 
 """
 Segmented inference example for Cosmos-Reason2 to handle long videos.
