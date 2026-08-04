@@ -8,6 +8,7 @@
 #   "accelerate==1.12.0",
 #   "av==16.1.0",
 #   "pillow==12.0.0",
+#   "transformers==4.57.3",
 
 """
 Segmented inference example for Cosmos-Reason2 to handle long videos.
