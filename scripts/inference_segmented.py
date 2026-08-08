@@ -157,6 +157,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                del generated_ids
             if 'generated_ids_trimmed' in locals():
                 del generated_ids_trimmed
             del segment_frames
