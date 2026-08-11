@@ -157,6 +157,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            # E. Cleanup Memory
             del inputs
             if 'generated_ids' in locals():
                 del generated_ids
