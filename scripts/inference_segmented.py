@@ -10,6 +10,7 @@
 #   "pillow==12.0.0",
 #   "transformers==4.57.3",
 #   "torch==2.9.0",
+#   "torchvision",
 
 """
 Segmented inference example for Cosmos-Reason2 to handle long videos.
