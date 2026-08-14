@@ -11,6 +11,7 @@
 #   "transformers==4.57.3",
 #   "torch==2.9.0",
 #   "torchvision",
+#   "torchcodec==0.9.1; platform_machine != 'aarch64'",
 
 """
 Segmented inference example for Cosmos-Reason2 to handle long videos.
