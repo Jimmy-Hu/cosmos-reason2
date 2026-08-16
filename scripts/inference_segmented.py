@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                f_out.write(f"Error: {e}\n\n")
                 f_out.flush() 
 
             # E. Cleanup Memory
