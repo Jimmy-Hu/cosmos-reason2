@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                print(f"Error processing segment {chunk_index}: {e}")
                 f_out.write(f"### Segment {chunk_index + 1} (Error)\n")
                 f_out.write(f"Error: {e}\n\n")
                 f_out.flush() 
