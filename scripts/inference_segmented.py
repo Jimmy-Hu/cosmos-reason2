@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                f_out.write(output_text + "\n\n")
                 f_out.flush() 
 
             except Exception as e:
