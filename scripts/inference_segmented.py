@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                f_out.flush() 
 
             except Exception as e:
                 print(f"Error processing segment {chunk_index}: {e}")
