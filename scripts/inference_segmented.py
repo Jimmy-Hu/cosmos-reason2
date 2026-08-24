@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                # Write to file immediately and force flush
                 f_out.write(f"### Segment {chunk_index + 1} ({current_time:.1f}s - {end_time:.1f}s)\n")
                 f_out.write(output_text + "\n\n")
                 f_out.flush() 
