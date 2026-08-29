@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                )[0]
 
                 # D. Print and Save
                 print(f"Output:\n{output_text}")
