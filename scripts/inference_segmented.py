@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                    generated_ids_trimmed, 
                     skip_special_tokens=True, 
                     clean_up_tokenization_spaces=False
                 )[0]
