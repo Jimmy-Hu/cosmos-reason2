@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                generated_ids_trimmed = [
                     out_ids[len(in_ids):]
                     for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
                 ]
