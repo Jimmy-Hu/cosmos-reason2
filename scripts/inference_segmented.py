@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                    )
                 
                 print("    [Debug] Decoding generated tokens...")
                 generated_ids_trimmed = [
