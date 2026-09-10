@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                        streamer=streamer  # Pass the streamer to the generate function
                     )
                 
                 print("    [Debug] Decoding generated tokens...")
