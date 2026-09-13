@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                        **inputs, 
                         max_new_tokens=max_new_tokens,
                         use_cache=True,
                         streamer=streamer  # Pass the streamer to the generate function
