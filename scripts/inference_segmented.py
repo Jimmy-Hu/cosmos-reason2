@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                    generated_ids = model.generate(
                         **inputs, 
                         max_new_tokens=max_new_tokens,
                         use_cache=True,
