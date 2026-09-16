@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                streamer = ProgressStreamer(max_new_tokens)
                 
                 with torch.no_grad():
                     generated_ids = model.generate(
