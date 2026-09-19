@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                # Initialize Progress Bar Streamer
                 max_new_tokens = 512
                 streamer = ProgressStreamer(max_new_tokens)
                 
