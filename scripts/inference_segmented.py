@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+
                 print("    [Debug] Starting model generation (this may take a while)...")
                 
                 # Initialize Progress Bar Streamer
