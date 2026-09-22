@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                inputs = inputs.to(model.device)
 
                 print("    [Debug] Starting model generation (this may take a while)...")
                 
