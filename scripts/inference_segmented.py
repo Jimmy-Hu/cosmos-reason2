@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                
                 print("    [Debug] Moving inputs to GPU...")
                 inputs = inputs.to(model.device)
 
