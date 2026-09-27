@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                    fps=TARGET_FPS,
                 )
                 
                 print("    [Debug] Moving inputs to GPU...")
