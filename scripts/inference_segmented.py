@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                    tokenize=True,
                     add_generation_prompt=True,
                     return_dict=True,
                     return_tensors="pt",
