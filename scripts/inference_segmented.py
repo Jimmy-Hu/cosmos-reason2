@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                    conversation,
                     tokenize=True,
                     add_generation_prompt=True,
                     return_dict=True,
