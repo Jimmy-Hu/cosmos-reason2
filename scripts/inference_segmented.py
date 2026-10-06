@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                torch.cuda.empty_cache()
                 
                 print("    [Debug] Applying chat template and tokenizing inputs...")
                 inputs = processor.apply_chat_template(
