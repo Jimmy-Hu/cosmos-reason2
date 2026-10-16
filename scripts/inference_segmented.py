@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                            "video_processor": processor.video_processor,
                         },
                         {"type": "text", "text": f"Please describe the events happening in this video segment ({current_time:.0f}s - {end_time:.0f}s) in detail."},
                     ],
