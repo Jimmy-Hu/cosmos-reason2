@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                            "video": segment_frames,
                             "fps": TARGET_FPS,
                             "video_processor": processor.video_processor,
                         },
