@@ -1,3 +1,18 @@
+> [!IMPORTANT]
+> ## 🚀 [Cosmos 3 Has Arrived](https://github.com/NVIDIA/Cosmos)
+>
+> Cosmos 3 is NVIDIA's next-generation foundation model platform for Physical AI. Compared with Cosmos-Reason2, Cosmos 3 delivers substantially stronger physical reasoning capabilities while extending beyond reasoning to support world prediction, simulation, transfer, and action generation within a single unified model.
+>
+> Rather than relying on separate models for reasoning, prediction, transfer, and policy learning, a single Cosmos 3 model can understand the world, reason about physical interactions, predict future outcomes, transform observations across domains, and generate actions for embodied agents. This unified architecture enables stronger performance across a broad range of Physical AI applications, including robotics, autonomous vehicles, and smart spaces.
+>
+> This repository is no longer under active development and will receive only limited maintenance updates. Future model releases, features, documentation, and community support will be focused on Cosmos 3.
+>
+> 👉 Visit the new Cosmos home: https://github.com/NVIDIA/Cosmos
+>
+> There you will find the latest Cosmos 3 models, technical reports, tutorials, benchmarks, and ecosystem updates.
+>
+> Thank you for your support of Cosmos-Reason2. We encourage all users to migrate to Cosmos 3 for the latest state-of-the-art Physical AI capabilities.
+
 <p align="center">
     <img src="https://github.com/user-attachments/assets/28f2d612-bbd6-44a3-8795-833d05e9f05f" width="274" alt="NVIDIA Cosmos"/>
 </p>
@@ -37,7 +52,8 @@ ______________________________________________________________________
 <!--TOC-->
 
 ## News!
-
+* [June 1, 2026] [Cosmos 3](https://github.com/nvidia/cosmos) is live! We’re excited to share that Cosmos 3 has launched — NVIDIA’s next-generation family of open omnimodal world foundation models for Physical AI. As part of this launch, the Cosmos GitHub repositories have moved to the [main NVIDIA GitHub organization](https://github.com/nvidia/cosmos): [https://github.com/nvidia/cosmos](https://github.com/nvidia/cosmos). Cosmos 3 unifies language, images, video, audio, and actions in a single architecture, enabling developers to build agents that can understand, reason, simulate, and act in the physical world. Please use the new repository as the source of truth for the latest code, models, documentation, and updates.
+* [April 29, 2026] The [Cosmos-Reason2-32B](https://huggingface.co/nvidia/Cosmos-Reason2-32B) model is now available on HuggingFace, along with its performance benchmarks. The 2B and 8B model performance is also included.
 * [February 9, 2026] We have Improved documentation and troubleshooting guidance, expanded platform support GB200 and ARM (torchcodec & inference sample fixed), enhanced quantization and training debuggability, and updated CUDA compatibility
 * [December 19, 2025] We have released the Cosmos-Reason2 models and code for Physical AI common sense and embodied reasoning. The 2B and 8B models are now available on Hugging Face.
 
@@ -45,6 +61,7 @@ ______________________________________________________________________
 
 * [Cosmos-Reason2-2B](https://huggingface.co/nvidia/Cosmos-Reason2-2B)
 * [Cosmos-Reason2-8B](https://huggingface.co/nvidia/Cosmos-Reason2-8B)
+* [Cosmos-Reason2-32B](https://huggingface.co/nvidia/Cosmos-Reason2-32B)
 
 ## Setup
 
