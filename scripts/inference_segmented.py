@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                    "content": [
                         {
                             "type": "video",
                             "video": segment_frames,
