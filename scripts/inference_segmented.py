@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                    "role": "user",
                     "content": [
                         {
                             "type": "video",
