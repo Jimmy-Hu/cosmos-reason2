@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                    "role": "system",
                     "content": [{"type": "text", "text": "You are a helpful assistant."}],
                 },
                 {
