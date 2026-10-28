@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            # B. Prepare Conversation
             conversation = [
                 {
                     "role": "system",
