@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                is_last_chunk = True
                 print("Notice: Extracted fewer frames than expected. Assuming end of video.")
 
             # B. Prepare Conversation
