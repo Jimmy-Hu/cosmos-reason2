@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            # Check if this is the last chunk (by comparing expected frame count)
             expected_frames = int((end_time - current_time) * TARGET_FPS)
             is_last_chunk = False
             # If we extracted fewer than 90% of expected frames, assume the video has ended
