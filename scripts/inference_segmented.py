@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+
             print(f"Extracted {len(segment_frames)} frames.")
 
             # Check if this is the last chunk (by comparing expected frame count)
