@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                break
 
             print(f"Extracted {len(segment_frames)} frames.")
 
