@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+                print("No frames extracted for this segment (reached end of video or an error occurred).")
                 break
 
             print(f"Extracted {len(segment_frames)} frames.")
