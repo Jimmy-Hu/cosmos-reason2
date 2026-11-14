@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            segment_frames = frame_generator(args.video_path, current_time, end_time, TARGET_FPS)
             
             if not segment_frames:
                 print("No frames extracted for this segment (reached end of video or an error occurred).")
