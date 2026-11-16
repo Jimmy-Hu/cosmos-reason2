@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+
             # A. Extract frames
             segment_frames = frame_generator(args.video_path, current_time, end_time, TARGET_FPS)
             
