@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+            end_time = min(current_time + SEGMENT_DURATION_SEC, total_duration)
             print(f"\n--- Processing Segment {chunk_index + 1}: {current_time:.1f}s to {end_time:.1f}s ---")
 
             # A. Extract frames
