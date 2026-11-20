@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+        chunk_index = 0
 
         while current_time < total_duration:
             end_time = min(current_time + SEGMENT_DURATION_SEC, total_duration)
