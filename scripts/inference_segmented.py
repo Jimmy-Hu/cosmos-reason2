@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+        f_out.write("=" * 50 + "\n\n")
 
         current_time = 0.0
         chunk_index = 0
