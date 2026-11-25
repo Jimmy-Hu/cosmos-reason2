@@ -159,6 +159,7 @@ def main():
     parser.add_argument(
         "--video_path", 
         type=str, 
+    with open(args.output_file, "w", encoding="utf-8") as f_out:
         f_out.write(f"Inference Results for: {args.video_path}\n")
         f_out.write("=" * 50 + "\n\n")
 
